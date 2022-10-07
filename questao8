@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+//Q8
+int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+  printf("%d ",*(vet+i));// printa os valores do array
+  
+printf("\n");
+    
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+  printf("%X ",vet+i);
+   //printa o endereço do item do vetor 
+}}
+  return 0;
+}
