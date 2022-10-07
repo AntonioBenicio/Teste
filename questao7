@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+//Q7
+int mat[4], *p, x;
+  p = mat + 1;
+p = mat++;// não é valido pois é um array
+p = ++mat;// não é valido pois é um array
+x = (*mat)++;
+  return 0;
+}
