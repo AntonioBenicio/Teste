@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main(void) {
+//10
+char a[4];
+  int b[4];
+  float c[4];
+  long int d[4];
+ int *p;
+  printf(" char  %d bytes\n", sizeof(char));
+  printf(" int  %d bytes\n", sizeof(int));
+  printf(" floa  %d bytes\n", sizeof(float));
+  printf(" long  %d bytes\n", sizeof(long));
+  for(int i=0;i<4;i++){
+    p=&a[i];
+    printf("\na[%d]   %x",i,p);
+  }
+  printf("\n");
+  for(int i=0;i<4;i++){
+    p=&b[i];
+    printf("\nb[%d]   %x",i, p);
+  }
+  printf("\n");
+  for(int i=0;i<4;i++){
+    p=&c[i];
+    printf("\nc[%d]   %x",i,p);
+  }
+  printf("\n");
+  for(int i=0;i<4;i++){
+    p=&d[i];
+    printf("\nd[%d]   %x",i,p);
+  }
+  return 0;
+}
