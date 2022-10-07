@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+   //Q3
+  int i, j, *p, *q;
+  printf("\n%d",p=i);// i não possui valor
+  printf("\n%p",q = &j);// q aponta o endereço de j
+  printf("\n%p",p = &*&i);//p aponta o endereço de i
+  //printf("\n%p",i = (*&)j);//Não funciona
+  printf("\n%p",i = *&j);//i mostra o endereço de j
+  printf("\n%p",i = *&*&j);//aponda o mesmo endereço de j
+  printf("\n%p",q = *p);//q aponta o endereço de p
+  printf("\n%p",i = (*p)++ + *q);//i aponta o endereço de p+1+endereço de q*/
+
+  return 0;
+}
