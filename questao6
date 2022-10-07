@@ -1,0 +1,2 @@
+Q6
+apenas a alternativa *(pulo + 2); irá referenciar o valor do terceiro elemento de pulo[], pois sera pulo[0+2]=pulo[2], sendo o terceiro elemento
